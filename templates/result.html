@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>p53 Binding Site Prediction </title>
+    <link rel="stylesheet" type="text/css" href="{{ url_for('static', filename='css/style.css') }}">
+    <!-- Add the link to your style.css file -->
+
+    <!-- Additional styles for result.html -->
+    <style>
+        body {
+            background-image: url("{{ url_for('static', filename='img/02.jpg') }}");
+            height: 100vh;
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction: row;
+        }
+
+        h1 {
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            font-size: 65px;
+            color: #ffffff;
+            width: 100%;
+            height: 80px;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        p.sequence {
+            padding: 15px;
+            color: #ffffff;
+            font-size: 25px;
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        p.result {
+            padding: 15px;
+            color: #ffffff;
+            font-size: 50px;
+            width: 100%;
+            margin: 10px 0;
+        }
+
+        a {
+            padding: 15px;
+            color: #ffffff;
+            font-size: 35px;
+            text-decoration: none;
+            width: 100%;
+            display: block;
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Prediction Result:</h1>
+    <p class="sequence">Sequence: {{ sequence }}</p>
+    <p class="result">Result: {{ result }}</p>
+    <a href="{{ url_for('index') }}">Go back</a>
+</body>
+</html>
