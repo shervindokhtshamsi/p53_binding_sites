@@ -4,6 +4,7 @@ Project Name: p53 Binding Site Predictor - Educational Project
 Description and Disclaimer:
 The p53 Binding Site Predictor - Educational Project is a result of an educational endeavor for a data analysis and machine learning class. 
 This project focuses on predicting p53 binding sites in DNA sequences using machine learning techniques.
+The predictive accuracy of this p53 Binding Site Predictor is 93%. 
 It is essential to emphasize that this project is purely for educational purposes and should not be utilized or deployed in real-world scenarios.  
 
 Installation:  Clone the repository: https://github.com/shervindokhtshamsi/p53_binding_sites.git
