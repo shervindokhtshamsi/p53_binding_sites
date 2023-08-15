@@ -1,0 +1,3 @@
+With this command, you can get an executable file from this project by Pyinstaller:
+
+pyinstaller --onedir --add-data "trained_model.joblib;." --add-data "static;static" --add-data "templates;templates" --hidden-import sklearn --hidden-import sklearn.pipeline --hidden-import sklearn.feature_extraction app.py
