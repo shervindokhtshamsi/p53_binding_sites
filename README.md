@@ -4,6 +4,9 @@
 *Overview:*
 This project focuses on predicting DNA sequence binding sites using a Logistic Regression model, with a specific emphasis on the TP53 gene (p53). The model achieves an impressive accuracy of 93% in distinguishing binding sites from non-binding sites.
 
+To download the executable file, refer to the following link:
+https://drive.google.com/drive/folders/1DN1Ylc8SumAKif1OQOwM97fvYqr1ev1V?usp=sharing
+
 *Features:*
 - DNA sequences are extracted from FASTA files and labeled as positive or negative samples.
 - The sequences are transformed into feature vectors using the CountVectorizer, using 4-mers as features.
