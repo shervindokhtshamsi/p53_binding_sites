@@ -1,8 +1,16 @@
 # p53_binding_sites
 Project Name: p53 Binding Site Predictor - Educational Project 
 
-Description and Disclaimer:
-The p53 Binding Site Predictor - Educational Project is a result of an educational endeavor for a data analysis and machine learning class. This project focuses on predicting p53 binding sites in DNA sequences using machine learning techniques. It is essential to emphasize that this project is purely for educational purposes and should not be utilized or deployed in real-world scenarios.
+Overview
+This project focuses on predicting DNA sequence binding sites using a Logistic Regression model, with a specific emphasis on the TP53 gene (p53). The model achieves an impressive accuracy of 93% in distinguishing binding sites from non-binding sites.
+Features
+* DNA sequences are extracted from FASTA files and labeled as positive or negative samples.
+* The sequences are transformed into feature vectors using the CountVectorizer, using 4-mers as features.
+* A Logistic Regression model is built and trained on the feature vectors.
+* Flask is used to create a web application for predicting binding sites based on user input sequences.
+
+Disclaimer:
+It is essential to emphasize that this project is purely for educational purposes and should not be utilized or deployed in real-world scenarios.
 
 Data Sources:
 
@@ -26,7 +34,3 @@ Contributing:
 
 While practical contributions are not sought due to the educational nature of this project, engaging in discussions and sharing insights is welcomed.
 
-
-Accuracy Description:
-
-The p53 Binding Site Predictor achieved an accuracy of 93% in predicting binding sites for p53. This accuracy value reflects the performance of the machine learning model on the educational dataset and with the techniques employed in this project.
